@@ -1,0 +1,31 @@
+.content__two-columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+}
+
+.content__brief {
+  width: 175px;
+  line-height: 1.2;
+  color: #2F80ED;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.content__main-text {
+  width: 80%;
+  min-width: 784px;
+  font-size: 24px;
+}
+
+.content__paragraph {
+  margin-bottom: 30px;
+}
+
+.content__span-acent {
+  margin-bottom: 30px;
+}
+
+.content__span-acent span {
+  font-weight: bold;
+}

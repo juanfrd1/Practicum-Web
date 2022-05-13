@@ -1,0 +1,31 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(60px);
+  margin-top: 100px;
+}
+
+.video__section_title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.video__section_subtitle {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.video__inframes_1 {
+  margin-right: 10px;
+}
+
+.video__inframes_2 {
+  margin-left: 10px;
+}

@@ -1,0 +1,25 @@
+.oakley__two-columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  padding-top: 160px;
+  background-color: #f2f2f2;
+}
+
+.oakley__brief {
+  width: 175px;
+  line-height: 1.2;
+  color: #2F80ED;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.oakley__main-text {
+  width: 80%;
+  min-width: 784px;
+  font-size: 24px;
+}
+
+.oakley__paragraph {
+  margin-bottom: 30px;
+}

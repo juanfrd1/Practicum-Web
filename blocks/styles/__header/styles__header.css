@@ -1,0 +1,79 @@
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  /* parameters for the header section */
+  display: flex;
+  background-color: #F2F2F2;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo_place_header {
+  position: absolute;
+  width: 154px;
+  height: 31px;
+  margin-top: 30px;
+  margin-left: 64px;
+  z-index: 1;
+}
+
+.header__title {
+  position: relative;
+  width: 730px;
+  margin-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  margin-top: 300px;
+}
+
+.header__subtitle {
+  position: absolute;
+  width: 388px;
+  margin-left: 64px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  z-index: 4;
+  bottom: 30px;
+}
+
+.header__subtitle_link {
+  color: #2F80ED;
+  text-decoration: none;
+}
+
+.header__main_illustration {
+  position: absolute;
+  width: 756px;
+  height: 608px;
+  left: 50%;
+  bottom: 0;
+  z-index: 3;
+}
+
+/* here we have two examples of selectors in order to remind you how to set styles for elements */
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  background-color: #2F80ED;
+  transform: rotate(-15deg);
+  animation: rotation 20s linear infinite;
+  z-index: 0;
+}

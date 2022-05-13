@@ -1,0 +1,43 @@
+.feynman {
+  background-color: #f2f2f2;
+  height: 790px;
+  background-image: url(/web_project_1_es/blocks/images/feynman.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  text-align: center;
+  display: flex;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  position: relative;
+}
+
+.feynman__title {
+  width: 775px;
+  margin-left: 280px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  justify-content: center;
+  padding: 100px;
+  padding-bottom: 70px;
+
+}
+
+.feynman__subtitle {
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  justify-content: center;
+}
+
+.feynman__link {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2F80ED;
+  text-decoration: none;
+  right: 50px;
+  position: absolute;
+  top: 50%;
+}

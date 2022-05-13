@@ -1,0 +1,28 @@
+@import url(./normalize.css);
+@import url(./__header/styles__header.css);
+@import url(./__description/styles__description.css);
+@import url(./__techniques/styles__techniques.css);
+@import url(./__video/styles__video.css);
+@import url(./__oakley/styles__oakley.css);
+@import url(./__feynman/styles__feynman.css);
+@import url(./__digits/styles__digits.css);
+@import url(./__khan/styles__khan.css);
+@import url(./__kaufman/styles__kaufman.css);
+@import url(./__resources/styles__resources.css);
+@import url(./__footer/styles__footer.css);
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+.page {
+  min-width: 1100px;
+  /* we don't know how to make mobile versions of websites yet, */
+  /* so here we've set a minimum page width */
+  max-width: 1600px;
+  /* here we've set a maximum page width */
+  margin: 0 auto;
+  /* this ensures that all content is centered on screens wider than 1600px */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
