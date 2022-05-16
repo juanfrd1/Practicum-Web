@@ -8,19 +8,19 @@
   padding-top: 100px;
 }
 
-.khan__section-author{
+.khan__author{
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
 }
 
-.Khan__section-title {
+.Khan__title {
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
 }
 
-.khan__section-description {
+.khan__description {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
