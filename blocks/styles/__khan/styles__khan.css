@@ -8,19 +8,19 @@
   padding-top: 100px;
 }
 
-.khan__author{
+.khan__section-author{
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
 }
 
-.Khan__author-title {
+.Khan__section-author-title {
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
 }
 
-.khan__author-description {
+.khan__section-author-description {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -28,14 +28,14 @@
   margin-top: 50px;
 }
 
-.khan__quote-author {
+.khan__section-quote-author {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
   margin-top: 36px;
 }
 
-.khan__quote-subline {
+.khan__section-quote-subline {
   line-height: 1.15;
   font-size: 24px;
   font-weight: normal;
