@@ -6,7 +6,7 @@
   margin-top: 100px;
 }
 
-.video__section_title {
+.video__heading-section-title {
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
@@ -14,7 +14,7 @@
   margin-bottom: 20px;
 }
 
-.video__section_subtitle {
+.video__heading-section-subtitle {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -22,10 +22,10 @@
   margin-bottom: 50px;
 }
 
-.video__inframes_1 {
+.video__inframes-1 {
   margin-right: 10px;
 }
 
-.video__inframes_2 {
+.video__inframes-2 {
   margin-left: 10px;
 }
