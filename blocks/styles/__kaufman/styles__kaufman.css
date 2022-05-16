@@ -39,6 +39,9 @@
   width: 200px;
   color: white;
   margin-top: 80px;
+}
+
+ul {
   z-index: 1;
 }
 
