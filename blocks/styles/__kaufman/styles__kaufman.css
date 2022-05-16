@@ -35,7 +35,7 @@
   padding-bottom: 90px;
 }
 
-.Kaufman__table-cell {
+.Kaufman__cell {
   width: 200px;
   color: white;
   margin-top: 80px;
@@ -45,7 +45,7 @@ ul {
   z-index: 1;
 }
 
-.kaufman__table-heading-theme-dark {
+.kaufman__cell-heading {
   margin-bottom: 20px;
 }
 
