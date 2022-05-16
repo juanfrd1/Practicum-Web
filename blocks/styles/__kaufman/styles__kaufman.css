@@ -5,7 +5,7 @@
   font-family: Helvetica, sans-serif;
 }
 
-.kaufman__section-title_theme_dark {
+.kaufman__section-title-theme-dark {
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
@@ -18,7 +18,7 @@
   z-index: 5;
 }
 
-.kaufman__section-subtitle_theme_dark {
+.kaufman__section-subtitle-theme-dark {
   text-align: center;
   font-weight: normal;
   line-height: 34px;
@@ -26,7 +26,7 @@
   color: #f2f2f2;
 }
 
-.kaufman__table_theme_dark {
+.kaufman__table-theme-dark {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -35,14 +35,14 @@
   padding-bottom: 90px;
 }
 
-.Kaufman__tabla_z-index {
+.Kaufman__tabla-z-index {
   width: 200px;
   color: white;
   margin-top: 80px;
   z-index: 1;
 }
 
-.kaufman__table__heading_theme_dark {
+.kaufman__table-heading-theme-dark {
   margin-bottom: 20px;
 }
 

@@ -2,7 +2,7 @@
   margin-top: 100px;
  }
 
- .digits__section_title {
+ .digits__section-title {
    text-align: center;
    line-height: 1.15;
    font-size: 60px;
@@ -10,7 +10,7 @@
    margin-bottom: 20px;
  }
 
- .digits__section_subtitle {
+ .digits__section-subtitle {
    text-align: center;
    font-weight: normal;
    line-height: 34px;
