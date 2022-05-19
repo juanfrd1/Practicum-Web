@@ -18,14 +18,17 @@
  }
 
  .digits__table {
-   display: flex;
-   flex-wrap: wrap;
    margin: auto;
    width: 1100px;
    padding-top: 60px;
    padding-bottom: 100px;
-   justify-content: space-between;
  }
+
+ .digits__table-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
  .digits__cell {
    width: 250px;

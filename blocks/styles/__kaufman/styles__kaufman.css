@@ -39,10 +39,15 @@
   width: 200px;
   color: white;
   margin-top: 80px;
+  z-index: 1;
 }
 
-ul {
-  z-index: 1;
+.kaufman__tabla_z-index {
+  color: white;
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .kaufman__cell-heading {
