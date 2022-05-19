@@ -51,6 +51,7 @@
 .khan__book {
   object-fit: contain;
   object-position: 0px 470px;
+  margin-right: 43px;
 }
 
 .khan__book-link {
@@ -60,5 +61,5 @@
   font-size: 30px;
   font-weight: normal;
   height: 0;
-  margin-bottom: 470px;
+  margin-top: 470px;
 }
