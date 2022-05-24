@@ -27,23 +27,26 @@
   z-index: 1;
 }
 
+.header__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .header__title {
-  position: relative;
+  position: absolute;
   width: 730px;
-  margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  justify-content: center;
-  align-items: center;
   z-index: 2;
-  margin-top: 300px;
+  left: 64px;
 }
 
 .header__subtitle {
   position: absolute;
   width: 388px;
-  margin-left: 64px;
+  left: 64px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -60,7 +63,7 @@
   position: absolute;
   width: 756px;
   height: 608px;
-  left: 50%;
+  right: 50px;
   bottom: 0;
   z-index: 3;
 }

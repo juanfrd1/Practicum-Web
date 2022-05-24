@@ -21,6 +21,10 @@
   justify-content: flex-start;
 }
 
+/*.techniques__cards-ul {
+margin: 60px 20px 43px 20px;
+}*/
+
 .techniques__cards-element {
   width: 250px;
   margin: 60px 100px;
@@ -29,21 +33,22 @@
 .techniques__cards-image {
   border-radius: 50%;
   width: 160px;
-  height: 160px;
-  margin: 60px 40px 43px 40px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .techniques__cards-title {
   line-height: 1.15;
   font-size: 24px;
-  font-weight: normal;
+  font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
+  margin-top: 43px;
 }
 
 .techniques__cards-description {
   line-height: 23px;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: normal;
   text-align: center;
 }
