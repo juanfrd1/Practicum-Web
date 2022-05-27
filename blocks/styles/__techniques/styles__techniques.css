@@ -1,3 +1,7 @@
+.techniques {
+  width: auto;
+}
+
 .techniques__section-title {
   text-align: center;
   line-height: 1.15;
@@ -14,30 +18,35 @@
 }
 
 .techniques__cards {
+  margin-left: 20%;
+  padding-top: 60px;
+  width: 920px;
+}
+
+.techniques__cards_ul {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 90px;
-  padding-top: 60px;
-  justify-content: flex-start;
+  column-gap: 100px;
 }
 
 .techniques__cards-element {
-  width: 250px;
-  margin: 60px 100px;
+  width: 240px;
+  margin-top: 60px;
+  margin-bottom: 0;
 }
 
 .techniques__cards-image {
   border-radius: 50%;
   width: 160px;
-  margin-left: 40px;
-  margin-right: 40px;
+  height: 160px;
+  margin: 0 40px 0 40px;
 }
 
 .techniques__cards-title {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   text-align: center;
   margin-top: 43px;
 }
